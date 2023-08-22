@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "glfw",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glfw-Debug-2c4264e93c8a064e6c75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/glfw",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glfw.src-Debug-8ac354899e81b06abf39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "external/glfw/src",
+					"targetIndexes" : 
+					[
+						4,
+						7
+					]
+				},
+				{
+					"build" : "glad",
+					"jsonFile" : "directory-glad-Debug-ed310e49bed82f9fb4ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/glad",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "glew",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-glew-Debug-fe88b361f22fbb7a6352.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/glew/build/cmake",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "glfw_learn",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "glad::@74ca6b3581f0d7366b1f",
+					"jsonFile" : "target-glad-Debug-b788f69cc4cdc75a878d.json",
+					"name" : "glad",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glew::@53e89909b58b5208c234",
+					"jsonFile" : "target-glew-Debug-79e4a6a8289ef10c5b18.json",
+					"name" : "glew",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glew_s::@53e89909b58b5208c234",
+					"jsonFile" : "target-glew_s-Debug-c2ec3f6bcb038a19f72c.json",
+					"name" : "glew_s",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glewinfo::@53e89909b58b5208c234",
+					"jsonFile" : "target-glewinfo-Debug-2b66b553cefc5de9d9b7.json",
+					"name" : "glewinfo",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@12507ebf64a5258d241e",
+					"jsonFile" : "target-glfw-Debug-04d40083cb61a0791751.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glfw_learn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glfw_learn-Debug-b0907a792e3f253ca6bc.json",
+					"name" : "glfw_learn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@eb154563b92743f6cbb3",
+					"jsonFile" : "target-uninstall-Debug-28c0a83e285bf5477888.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@12507ebf64a5258d241e",
+					"jsonFile" : "target-update_mappings-Debug-b867e8cc877764371352.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "visualinfo::@53e89909b58b5208c234",
+					"jsonFile" : "target-visualinfo-Debug-8429b80e5351f36fb12e.json",
+					"name" : "visualinfo",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug-mingw",
+		"source" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
