@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw\;CMake Files\external\glfw\CMake\;CMake Files\external\glfw\src\;CMake Files\external\glad\;CMake Files\external\glew\;CMake Files\external\glew\build\;CMake Files\external\glew\build\cmake\;CMake Files\external\glm\;CMake Files\external\glm\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mike/Desktop/Hobby Project/glfw-learn/cmake-build-debug/glm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mike/Desktop/Hobby\ Project/glfw-learn/cmake-build-debug/glm/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mike/Desktop/Hobby\ Project/glfw-learn/cmake-build-debug/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mike/Desktop/Hobby\ Project/glfw-learn/cmake-build-debug/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mike/Desktop/Hobby\ Project/glfw-learn/cmake-build-debug/glm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mike/Desktop/Hobby Project/glfw-learn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/mike/Desktop/Hobby Project/glfw-learn/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/mike/Desktop/Hobby Project/glfw-learn/external/glfw/CMake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/mike/Desktop/Hobby Project/glfw-learn/external/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/mike/Desktop/Hobby Project/glfw-learn/external/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/mike/Desktop/Hobby Project/glfw-learn/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/mike/Desktop/Hobby Project/glfw-learn/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glad\"/>
+		</Unit>
+		<Unit filename="/Users/mike/Desktop/Hobby Project/glfw-learn/external/glew/glew.pc.in">
+			<Option virtualFolder="CMake Files\external\glew\"/>
+		</Unit>
+		<Unit filename="/Users/mike/Desktop/Hobby Project/glfw-learn/external/glew/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glew\build\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/mike/Desktop/Hobby Project/glfw-learn/external/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glm\"/>
+		</Unit>
+		<Unit filename="/Users/mike/Desktop/Hobby Project/glfw-learn/external/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external\glm\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -18,6 +18,9 @@ target_link_libraries(${PROJECT_NAME} PRIVATE glad)
 add_subdirectory(external/glew/build/cmake ${CMAKE_CURRENT_BINARY_DIR}/glew)
 target_link_libraries(${PROJECT_NAME} PRIVATE glew)
 
+add_subdirectory(external/glm ${CMAKE_CURRENT_BINARY_DIR}/glm)
+target_link_libraries(${PROJECT_NAME} PRIVATE glm)
+
 if (WIN32)
     file(TO_NATIVE_PATH ${CMAKE_BINARY_DIR}/dlls GLEW_DLL_DESTINATION_NATIVE)
     file(COPY ${CMAKE_BINARY_DIR}/bin/glew32d.dll DESTINATION ${GLEW_DLL_DESTINATION_NATIVE})
