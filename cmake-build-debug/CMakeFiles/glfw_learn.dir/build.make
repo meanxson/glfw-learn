@@ -83,14 +83,48 @@ CMakeFiles/glfw_learn.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glfw_learn.dir/main.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\main.cpp -o CMakeFiles\glfw_learn.dir\main.cpp.s
 
+CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.obj: CMakeFiles/glfw_learn.dir/flags.make
+CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.obj: CMakeFiles/glfw_learn.dir/includes_CXX.rsp
+CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.obj: C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Window/Window.cpp
+CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.obj: CMakeFiles/glfw_learn.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.obj -MF CMakeFiles\glfw_learn.dir\src\Window\Window.cpp.obj.d -o CMakeFiles\glfw_learn.dir\src\Window\Window.cpp.obj -c C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\src\Window\Window.cpp
+
+CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\src\Window\Window.cpp > CMakeFiles\glfw_learn.dir\src\Window\Window.cpp.i
+
+CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\src\Window\Window.cpp -o CMakeFiles\glfw_learn.dir\src\Window\Window.cpp.s
+
+CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj: CMakeFiles/glfw_learn.dir/flags.make
+CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj: CMakeFiles/glfw_learn.dir/includes_CXX.rsp
+CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj: C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Mesh/Mesh.cpp
+CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj: CMakeFiles/glfw_learn.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj -MF CMakeFiles\glfw_learn.dir\src\Mesh\Mesh.cpp.obj.d -o CMakeFiles\glfw_learn.dir\src\Mesh\Mesh.cpp.obj -c C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\src\Mesh\Mesh.cpp
+
+CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\src\Mesh\Mesh.cpp > CMakeFiles\glfw_learn.dir\src\Mesh\Mesh.cpp.i
+
+CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\src\Mesh\Mesh.cpp -o CMakeFiles\glfw_learn.dir\src\Mesh\Mesh.cpp.s
+
 # Object files for target glfw_learn
 glfw_learn_OBJECTS = \
-"CMakeFiles/glfw_learn.dir/main.cpp.obj"
+"CMakeFiles/glfw_learn.dir/main.cpp.obj" \
+"CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.obj" \
+"CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj"
 
 # External object files for target glfw_learn
 glfw_learn_EXTERNAL_OBJECTS =
 
 glfw_learn.exe: CMakeFiles/glfw_learn.dir/main.cpp.obj
+glfw_learn.exe: CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.obj
+glfw_learn.exe: CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj
 glfw_learn.exe: CMakeFiles/glfw_learn.dir/build.make
 glfw_learn.exe: glfw/src/libglfw3.a
 glfw_learn.exe: glad/libglad.a
@@ -98,7 +132,7 @@ glfw_learn.exe: lib/libglew32d.dll.a
 glfw_learn.exe: CMakeFiles/glfw_learn.dir/linkLibs.rsp
 glfw_learn.exe: CMakeFiles/glfw_learn.dir/objects1
 glfw_learn.exe: CMakeFiles/glfw_learn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable glfw_learn.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable glfw_learn.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glfw_learn.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

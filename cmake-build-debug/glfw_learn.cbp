@@ -24,7 +24,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DGLEW_DLL_PATH=&quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/dlls/glew32d.dll&quot;"/>
+					<Add option="-DGLEW_DLL_PATH="/>
+					<Add option="-DC:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/dlls/glew32d.dll"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/include"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glfw/include"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glad/include"/>
@@ -51,7 +52,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DGLEW_DLL_PATH=&quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/dlls/glew32d.dll&quot;"/>
+					<Add option="-DGLEW_DLL_PATH="/>
+					<Add option="-DC:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/dlls/glew32d.dll"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/include"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glfw/include"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glad/include"/>
@@ -596,7 +598,19 @@
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glfw/src/window.c">
 			<Option target="glfw"/>
 		</Unit>
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Mesh/Mesh.h">
+			<Option target="glfw_learn"/>
+		</Unit>
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Window/Window.h">
+			<Option target="glfw_learn"/>
+		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/main.cpp">
+			<Option target="glfw_learn"/>
+		</Unit>
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Mesh/Mesh.cpp">
+			<Option target="glfw_learn"/>
+		</Unit>
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Window/Window.cpp">
 			<Option target="glfw_learn"/>
 		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/CMakeLists.txt">

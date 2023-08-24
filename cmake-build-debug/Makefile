@@ -301,6 +301,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Mesh/Mesh.obj: src/Mesh/Mesh.cpp.obj
+.PHONY : src/Mesh/Mesh.obj
+
+# target to build an object file
+src/Mesh/Mesh.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj
+.PHONY : src/Mesh/Mesh.cpp.obj
+
+src/Mesh/Mesh.i: src/Mesh/Mesh.cpp.i
+.PHONY : src/Mesh/Mesh.i
+
+# target to preprocess a source file
+src/Mesh/Mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.i
+.PHONY : src/Mesh/Mesh.cpp.i
+
+src/Mesh/Mesh.s: src/Mesh/Mesh.cpp.s
+.PHONY : src/Mesh/Mesh.s
+
+# target to generate assembly for a file
+src/Mesh/Mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.s
+.PHONY : src/Mesh/Mesh.cpp.s
+
+src/Window/Window.obj: src/Window/Window.cpp.obj
+.PHONY : src/Window/Window.obj
+
+# target to build an object file
+src/Window/Window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.obj
+.PHONY : src/Window/Window.cpp.obj
+
+src/Window/Window.i: src/Window/Window.cpp.i
+.PHONY : src/Window/Window.i
+
+# target to preprocess a source file
+src/Window/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.i
+.PHONY : src/Window/Window.cpp.i
+
+src/Window/Window.s: src/Window/Window.cpp.s
+.PHONY : src/Window/Window.s
+
+# target to generate assembly for a file
+src/Window/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.s
+.PHONY : src/Window/Window.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -325,6 +373,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/Mesh/Mesh.obj
+	@echo ... src/Mesh/Mesh.i
+	@echo ... src/Mesh/Mesh.s
+	@echo ... src/Window/Window.obj
+	@echo ... src/Window/Window.i
+	@echo ... src/Window/Window.s
 .PHONY : help
 
 
