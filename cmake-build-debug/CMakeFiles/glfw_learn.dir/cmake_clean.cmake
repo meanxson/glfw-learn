@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/glfw_learn.dir/main.cpp.o"
-  "CMakeFiles/glfw_learn.dir/main.cpp.o.d"
-  "glfw_learn"
+  "CMakeFiles/glfw_learn.dir/main.cpp.obj"
+  "CMakeFiles/glfw_learn.dir/main.cpp.obj.d"
+  "glfw_learn.exe"
+  "glfw_learn.exe.manifest"
   "glfw_learn.pdb"
+  "libglfw_learn.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
