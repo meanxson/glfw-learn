@@ -15,7 +15,6 @@
 #include "include/Window/Window.h"
 
 // Window dimensions
-const GLint WIDTH = 800, HEIGHT = 600;
 const float RADIANS = M_PI / 180.0f;
 
 Window mainWindow("Test Window");
