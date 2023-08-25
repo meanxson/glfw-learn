@@ -24,8 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DGLEW_DLL_PATH="/>
-					<Add option="-DC:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/dlls/glew32d.dll"/>
+					<Add option="-DSHADER_PATH=&quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/graphics/shaders/&quot;"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/include"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glfw/include"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glad/include"/>
@@ -52,8 +51,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DGLEW_DLL_PATH="/>
-					<Add option="-DC:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/dlls/glew32d.dll"/>
+					<Add option="-DSHADER_PATH=&quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/graphics/shaders/&quot;"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/include"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glfw/include"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glad/include"/>
@@ -601,6 +599,9 @@
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Mesh/Mesh.h">
 			<Option target="glfw_learn"/>
 		</Unit>
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Shader/Shader.h">
+			<Option target="glfw_learn"/>
+		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Window/Window.h">
 			<Option target="glfw_learn"/>
 		</Unit>
@@ -608,6 +609,9 @@
 			<Option target="glfw_learn"/>
 		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Mesh/Mesh.cpp">
+			<Option target="glfw_learn"/>
+		</Unit>
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Shader/Shader.cpp">
 			<Option target="glfw_learn"/>
 		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Window/Window.cpp">

@@ -325,6 +325,30 @@ src/Mesh/Mesh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.s
 .PHONY : src/Mesh/Mesh.cpp.s
 
+src/Shader/Shader.obj: src/Shader/Shader.cpp.obj
+.PHONY : src/Shader/Shader.obj
+
+# target to build an object file
+src/Shader/Shader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Shader/Shader.cpp.obj
+.PHONY : src/Shader/Shader.cpp.obj
+
+src/Shader/Shader.i: src/Shader/Shader.cpp.i
+.PHONY : src/Shader/Shader.i
+
+# target to preprocess a source file
+src/Shader/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Shader/Shader.cpp.i
+.PHONY : src/Shader/Shader.cpp.i
+
+src/Shader/Shader.s: src/Shader/Shader.cpp.s
+.PHONY : src/Shader/Shader.s
+
+# target to generate assembly for a file
+src/Shader/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Shader/Shader.cpp.s
+.PHONY : src/Shader/Shader.cpp.s
+
 src/Window/Window.obj: src/Window/Window.cpp.obj
 .PHONY : src/Window/Window.obj
 
@@ -376,6 +400,9 @@ help:
 	@echo ... src/Mesh/Mesh.obj
 	@echo ... src/Mesh/Mesh.i
 	@echo ... src/Mesh/Mesh.s
+	@echo ... src/Shader/Shader.obj
+	@echo ... src/Shader/Shader.i
+	@echo ... src/Shader/Shader.s
 	@echo ... src/Window/Window.obj
 	@echo ... src/Window/Window.i
 	@echo ... src/Window/Window.s
