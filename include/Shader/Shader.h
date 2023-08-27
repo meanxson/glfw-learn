@@ -23,13 +23,14 @@ public:
     [[nodiscard]] GLuint getProjectionLocation() const;
 
     [[nodiscard]] GLuint getModelLocation() const;
+    [[nodiscard]] GLuint getViewLocation() const;
 
     void useShader() const;
 
     void clearShader();
 
 private:
-    GLuint m_shaderId, m_uniformProjection, m_uniformModel;
+    GLuint m_shaderId, m_uniformProjection, m_uniformModel, m_uniformView;
 
     void compileShader(const char *vertexCode, const char *fragmentCode);
 

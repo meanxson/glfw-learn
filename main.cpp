@@ -13,6 +13,7 @@
 #include "include/Mesh/Mesh.h"
 #include "include/Shader/Shader.h"
 #include "include/Window/Window.h"
+#include "include/Camera/Camera.h"
 
 // Window dimensions
 const float RADIANS = M_PI / 180.0f;
@@ -20,7 +21,7 @@ const float RADIANS = M_PI / 180.0f;
 Window mainWindow("Test Window");
 std::vector<Mesh *> meshList;
 std::vector<Shader> shaderList;
-
+Camera camera;
 
 bool direction = true;
 float triOffset = 0.0f;
@@ -100,14 +101,23 @@ int main() {
     createObjects();
     createShader();
 
-    GLuint uniformProjection = 0, uniformModel = 0;
+    camera = Camera(
+            glm::vec3(0.0f, 0.0f, 0.0f),
+            glm::vec3(0.0f, 1.0f, 0.0f),
+            0.0f, 0.0f, 5.0f, 1.0f);
 
-    glm::mat4 projection = glm::perspective(45.0f, (GLfloat) mainWindow.getBufferWidth() / (GLfloat) mainWindow.getBufferHeight(), 0.1f, 100.0f);
+    GLuint uniformProjection = 0, uniformModel = 0, uniformView = 0;
+
+    glm::mat4 projection = glm::perspective(45.0f, (GLfloat) mainWindow.getBufferWidth() /
+                                                   (GLfloat) mainWindow.getBufferHeight(), 0.1f, 100.0f);
+
 
     // Loop until window closed
     while (!mainWindow.getShouldClose()) {
         // Get + Handle user input events
         glfwPollEvents();
+
+        camera.keyControl(mainWindow.getsKeys());
 
         if (direction) {
             triOffset += triIncrement;
@@ -142,6 +152,7 @@ int main() {
         shaderList[0].useShader();
         uniformModel = shaderList[0].getModelLocation();
         uniformProjection = shaderList[0].getProjectionLocation();
+        uniformView = shaderList[0].getViewLocation();
 
         glm::mat4 model(1.0f);
 
@@ -151,6 +162,7 @@ int main() {
 
         glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
         glUniformMatrix4fv(uniformProjection, 1, GL_FALSE, glm::value_ptr(projection));
+        glUniformMatrix4fv(uniformView, 1, GL_FALSE, glm::value_ptr(camera.calculateViewMatrix()));
 
         meshList[0]->renderMesh();
 

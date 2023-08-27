@@ -1,14 +1,11 @@
 file(REMOVE_RECURSE
-  "../bin/glewinfo.exe"
-  "../bin/glewinfo.exe.manifest"
+  "../bin/glewinfo"
   "../bin/glewinfo.pdb"
-  "../lib/libglewinfo.dll.a"
-  "CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.obj"
-  "CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.obj.d"
-  "CMakeFiles/glewinfo.dir/__/glewinfo.rc.obj"
+  "CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.o"
+  "CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang C RC)
+foreach(lang C)
   include(CMakeFiles/glewinfo.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

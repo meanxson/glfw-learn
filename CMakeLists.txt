@@ -8,7 +8,8 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(${PROJECT_NAME} main.cpp
         src/Window/Window.cpp include/Window/Window.h
         src/Mesh/Mesh.cpp include/Mesh/Mesh.h
-        src/Shader/Shader.cpp include/Shader/Shader.h)
+        src/Shader/Shader.cpp include/Shader/Shader.h
+        src/Camera/Camera.cpp include/Camera/Camera.h)
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR}/external/glew/include)
 

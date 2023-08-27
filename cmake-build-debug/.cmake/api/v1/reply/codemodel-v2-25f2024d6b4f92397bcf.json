@@ -14,7 +14,7 @@
 						5
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.25"
@@ -33,7 +33,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-glfw-Debug-44240081ce2ab42cb4a2.json",
+					"jsonFile" : "directory-glfw-Debug-5a85dd55ee720b6c0aa6.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -49,7 +49,7 @@
 				{
 					"build" : "glfw/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-glfw.src-Debug-8ac354899e81b06abf39.json",
+					"jsonFile" : "directory-glfw.src-Debug-91e150aac15dd499862d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -65,7 +65,7 @@
 				},
 				{
 					"build" : "glad",
-					"jsonFile" : "directory-glad-Debug-ed310e49bed82f9fb4ef.json",
+					"jsonFile" : "directory-glad-Debug-ea767ed0f51e6f28bc10.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.25"
@@ -81,7 +81,7 @@
 				{
 					"build" : "glew",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-glew-Debug-663aeaea2ef3aaa671bc.json",
+					"jsonFile" : "directory-glew-Debug-3ad68b72d1bcd75bb04d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "2.8.12"
@@ -103,7 +103,7 @@
 					[
 						6
 					],
-					"jsonFile" : "directory-glm-Debug-a010caf50ae4d85c71b1.json",
+					"jsonFile" : "directory-glm-Debug-64a2eb3489ecea940acc.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.6"
@@ -114,7 +114,7 @@
 				},
 				{
 					"build" : "glm/glm",
-					"jsonFile" : "directory-glm.glm-Debug-9204bcb4b79bb36c040c.json",
+					"jsonFile" : "directory-glm.glm-Debug-29abaeb629e3835491f4.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.6"
@@ -202,63 +202,63 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "glad::@74ca6b3581f0d7366b1f",
-					"jsonFile" : "target-glad-Debug-b788f69cc4cdc75a878d.json",
+					"jsonFile" : "target-glad-Debug-85ca2f402068fd5fe19f.json",
 					"name" : "glad",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "glew::@53e89909b58b5208c234",
-					"jsonFile" : "target-glew-Debug-79e4a6a8289ef10c5b18.json",
+					"jsonFile" : "target-glew-Debug-7a0145a087f49aff3100.json",
 					"name" : "glew",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "glew_s::@53e89909b58b5208c234",
-					"jsonFile" : "target-glew_s-Debug-c2ec3f6bcb038a19f72c.json",
+					"jsonFile" : "target-glew_s-Debug-b1b875e0f69912636956.json",
 					"name" : "glew_s",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "glewinfo::@53e89909b58b5208c234",
-					"jsonFile" : "target-glewinfo-Debug-2b66b553cefc5de9d9b7.json",
+					"jsonFile" : "target-glewinfo-Debug-1041d5e2f3e3bec69d23.json",
 					"name" : "glewinfo",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@12507ebf64a5258d241e",
-					"jsonFile" : "target-glfw-Debug-beb53d4beb315cb7e876.json",
+					"jsonFile" : "target-glfw-Debug-3932caee42c4fc2dd902.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "glfw_learn::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-glfw_learn-Debug-637dcbe0a27c75a0e49d.json",
+					"jsonFile" : "target-glfw_learn-Debug-133da965d370fbe9ff2a.json",
 					"name" : "glfw_learn",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "uninstall::@eb154563b92743f6cbb3",
-					"jsonFile" : "target-uninstall-Debug-6987588d645f0fa43c09.json",
+					"jsonFile" : "target-uninstall-Debug-5f7fe07a89af2203dc32.json",
 					"name" : "uninstall",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "update_mappings::@12507ebf64a5258d241e",
-					"jsonFile" : "target-update_mappings-Debug-6900f3a88719412a2438.json",
+					"jsonFile" : "target-update_mappings-Debug-a607ed48c59fbbf0158c.json",
 					"name" : "update_mappings",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "visualinfo::@53e89909b58b5208c234",
-					"jsonFile" : "target-visualinfo-Debug-8429b80e5351f36fb12e.json",
+					"jsonFile" : "target-visualinfo-Debug-4897e10759615f71bf4d.json",
 					"name" : "visualinfo",
 					"projectIndex" : 3
 				}
@@ -268,8 +268,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug",
-		"source" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn"
+		"build" : "/Users/mike/Desktop/Hobby Project/glfw-learn/cmake-build-debug",
+		"source" : "/Users/mike/Desktop/Hobby Project/glfw-learn"
 	},
 	"version" : 
 	{
