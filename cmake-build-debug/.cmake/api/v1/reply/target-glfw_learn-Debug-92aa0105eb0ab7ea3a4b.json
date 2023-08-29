@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "glfw_learn"
+			"path" : "glfw_learn.exe"
+		},
+		{
+			"path" : "glfw_learn.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -18,7 +21,7 @@
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"external/glfw/src/CMakeLists.txt"
+			"external/glew/build/cmake/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -55,7 +58,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 160,
+				"line" : 148,
 				"parent" : 5
 			},
 			{
@@ -84,36 +87,33 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics"
-				},
-				{
-					"fragment" : "-std=gnu++17"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"defines" : 
 			[
 				{
 					"backtrace" : 7,
-					"define" : "SHADER_PATH=\"/Users/mike/Desktop/Hobby Project/glfw-learn/graphics/shaders/\""
+					"define" : "SHADER_PATH=\"C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/graphics/shaders/\""
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 8,
-					"path" : "/Users/mike/Desktop/Hobby Project/glfw-learn/external/glew/include"
+					"path" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/mike/Desktop/Hobby Project/glfw-learn/external/glfw/include"
+					"path" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glfw/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/Users/mike/Desktop/Hobby Project/glfw-learn/external/glad/include"
+					"path" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glad/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/Users/mike/Desktop/Hobby Project/glfw-learn/external/glm"
+					"path" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm"
 				}
 			],
 			"language" : "CXX",
@@ -164,48 +164,39 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,\"/Users/mike/Desktop/Hobby Project/glfw-learn/cmake-build-debug/lib\"",
-				"role" : "libraries"
-			},
-			{
 				"backtrace" : 2,
-				"fragment" : "glfw/src/libglfw3.a",
+				"fragment" : "glfw\\src\\libglfw3.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "glad/libglad.a",
+				"fragment" : "glad\\libglad.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "lib/libGLEWd.2.2.0.dylib",
+				"fragment" : "lib\\libglew32d.dll.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "-framework Cocoa",
+				"fragment" : "-lopengl32",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "-framework IOKit",
+				"fragment" : "-lglu32",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
-				"fragment" : "-framework CoreFoundation",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "-Xlinker -framework -Xlinker OpenGL",
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "glfw_learn",
-	"nameOnDisk" : "glfw_learn",
+	"nameOnDisk" : "glfw_learn.exe",
 	"paths" : 
 	{
 		"build" : ".",

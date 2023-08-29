@@ -8,11 +8,7 @@
 class Window {
 public:
     Window();
-
-    Window(char *windowName);
-
     Window(GLuint width, GLuint height, char *windowName);
-
     ~Window();
 
 
@@ -35,7 +31,6 @@ private:
     GLFWwindow *m_mainWindow{};
     GLint m_width, m_height;
     GLint m_bufferWidth{}, m_bufferHeight{};
-    char *m_windowTitle{};
 
     bool m_keys[1024];
 

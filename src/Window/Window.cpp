@@ -13,22 +13,7 @@ Window::Window() {
     }
 }
 
-
-Window::Window(char *windowName) {
-    m_width = 800;
-    m_height = 600;
-    m_windowTitle = windowName;
-
-    m_xChange = 0;
-    m_yChange = 0;
-
-    for (bool &key: m_keys) {
-        key = false;
-    }
-}
-
-Window::Window(GLuint width, GLuint height, char *windowName) : m_width(width), m_height(height),
-                                                                m_windowTitle(windowName) {
+Window::Window(GLuint width, GLuint height, char *windowName) : m_width(width), m_height(height) {
 
     m_xChange = 0;
     m_yChange = 0;
@@ -55,7 +40,7 @@ int Window::initialize() {
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
-    m_mainWindow = glfwCreateWindow(m_width, m_height, m_windowTitle, NULL, NULL);
+    m_mainWindow = glfwCreateWindow(m_width, m_height, "Test Window", nullptr, nullptr);
     if (!m_mainWindow) {
         printf("GLFW window creation failed!");
         glfwTerminate();
@@ -115,7 +100,7 @@ void Window::handleMouse(GLFWwindow *window, double xPosition, double yPosition)
 
     if (thisWindow->m_isMouseFirstMoved) {
         thisWindow->m_lastX = xPosition;
-        thisWindow->m_lastY = xPosition;
+        thisWindow->m_lastY = yPosition;
         thisWindow->m_isMouseFirstMoved = false;
     }
 
@@ -123,7 +108,7 @@ void Window::handleMouse(GLFWwindow *window, double xPosition, double yPosition)
     thisWindow->m_yChange = thisWindow->m_lastY - yPosition;
 
     thisWindow->m_lastX = xPosition;
-    thisWindow->m_lastY = xPosition;
+    thisWindow->m_lastY = yPosition;
 }
 
 GLfloat Window::getXChange() {
