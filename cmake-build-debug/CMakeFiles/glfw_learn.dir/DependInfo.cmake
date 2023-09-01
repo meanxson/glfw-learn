@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Camera/Camera.cpp" "CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.obj" "gcc" "CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.obj.d"
   "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Mesh/Mesh.cpp" "CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj" "gcc" "CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj.d"
   "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Shader/Shader.cpp" "CMakeFiles/glfw_learn.dir/src/Shader/Shader.cpp.obj" "gcc" "CMakeFiles/glfw_learn.dir/src/Shader/Shader.cpp.obj.d"
+  "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Texture/Texture.cpp" "CMakeFiles/glfw_learn.dir/src/Texture/Texture.cpp.obj" "gcc" "CMakeFiles/glfw_learn.dir/src/Texture/Texture.cpp.obj.d"
   "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Window/Window.cpp" "CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.obj" "gcc" "CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.obj.d"
   )
 

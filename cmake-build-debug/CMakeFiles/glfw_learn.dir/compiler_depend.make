@@ -366,7 +366,16 @@ CMakeFiles/glfw_learn.dir/main.cpp.obj: C:/Users/Khakim/Desktop/HobbyCode/glfw-l
   C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/detail/type_half.hpp \
   C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/detail/type_half.inl \
   C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/integer.hpp \
-  C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/detail/func_integer.inl
+  C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/detail/func_integer.inl \
+  C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Texture/Texture.h \
+  C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Texture/stb_image.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/math.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h
 
 CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.obj: C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Camera/Camera.cpp \
   C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Camera/Camera.h \
@@ -759,6 +768,46 @@ CMakeFiles/glfw_learn.dir/src/Shader/Shader.cpp.obj: C:/Users/Khakim/Desktop/Hob
   C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/GL/glu.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/GL/gl.h
 
+CMakeFiles/glfw_learn.dir/src/Texture/Texture.cpp.obj: C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Texture/Texture.cpp \
+  C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Texture/Texture.h \
+  C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/include/GL/glew.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/inttypes.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/GL/glu.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/GL/gl.h \
+  C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Texture/stb_image.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/pstl_config.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/errno.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h
+
 CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.obj: C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Window/Window.cpp \
   C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Window/Window.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio \
@@ -911,6 +960,8 @@ C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/ext/vector_int4_si
 
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/malloc.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h:
+
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/locale.h:
 
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/ext/scalar_constants.inl:
@@ -1005,6 +1056,8 @@ C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/ext/matrix_float2x
 
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h:
 
+C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Texture/Texture.h:
+
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h:
 
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/ext/matrix_float4x4.hpp:
@@ -1067,11 +1120,15 @@ C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/ext/quaternion_tri
 
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/gtc/matrix_transform.hpp:
 
+C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/stdarg.h:
+
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/mat4x4.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h:
 
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/ext/matrix_double4x4.hpp:
+
+C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdarg.h:
 
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/detail/type_mat4x4.hpp:
 
@@ -1166,6 +1223,8 @@ C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/ext/vector_float3_
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/ext/vector_double3.hpp:
 
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/ext/vector_int3.hpp:
+
+C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h:
 
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/ext/vector_int3_sized.hpp:
 
@@ -1517,6 +1576,16 @@ C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/detail/func_packin
 
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/integer.hpp:
 
+C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Texture/stb_image.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/math.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h:
+
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Camera/Camera.cpp:
+
+C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Texture/Texture.cpp:
 
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Window/Window.cpp:

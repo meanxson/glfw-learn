@@ -373,6 +373,30 @@ src/Shader/Shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Shader/Shader.cpp.s
 .PHONY : src/Shader/Shader.cpp.s
 
+src/Texture/Texture.obj: src/Texture/Texture.cpp.obj
+.PHONY : src/Texture/Texture.obj
+
+# target to build an object file
+src/Texture/Texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Texture/Texture.cpp.obj
+.PHONY : src/Texture/Texture.cpp.obj
+
+src/Texture/Texture.i: src/Texture/Texture.cpp.i
+.PHONY : src/Texture/Texture.i
+
+# target to preprocess a source file
+src/Texture/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Texture/Texture.cpp.i
+.PHONY : src/Texture/Texture.cpp.i
+
+src/Texture/Texture.s: src/Texture/Texture.cpp.s
+.PHONY : src/Texture/Texture.s
+
+# target to generate assembly for a file
+src/Texture/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Texture/Texture.cpp.s
+.PHONY : src/Texture/Texture.cpp.s
+
 src/Window/Window.obj: src/Window/Window.cpp.obj
 .PHONY : src/Window/Window.obj
 
@@ -430,6 +454,9 @@ help:
 	@echo ... src/Shader/Shader.obj
 	@echo ... src/Shader/Shader.i
 	@echo ... src/Shader/Shader.s
+	@echo ... src/Texture/Texture.obj
+	@echo ... src/Texture/Texture.i
+	@echo ... src/Texture/Texture.s
 	@echo ... src/Window/Window.obj
 	@echo ... src/Window/Window.i
 	@echo ... src/Window/Window.s
