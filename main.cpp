@@ -14,6 +14,7 @@
 #include "include/Window/Window.h"
 #include "include/Camera/Camera.h"
 #include "include/Texture/Texture.h"
+#include "include/Light/Light.h"
 
 // Window dimensions
 const float RADIANS = M_PI / 180.0f;
@@ -25,6 +26,8 @@ Camera camera;
 
 GLfloat deltaTime = 0.0f;
 GLfloat lastTime = 0.0f;
+
+Light mainLight;
 
 Texture brickTexture;
 Texture dirtTexture;
@@ -45,7 +48,7 @@ void createObjects() {
     GLfloat vertices[] = {
             //x             y         z          u       v
             -1.0f, -1.0f, 0.0f, 0.0f, 0.0f,
-            0.0f, -1.0f, 1.0f,
+            0.0f, -1.0f, 1.0f, 0.5f, 0.0f,
             1.0f, -1.0f, 0.0f, 1.0f, 0.0f,
             0.0f, 1.0f, 0.0f, 0.5f, 1.0f
     };
@@ -81,7 +84,9 @@ int main() {
     dirtTexture = Texture(TEXTURE_PATH "dirt.png");
     dirtTexture.loadTexture();
 
-    GLuint uniformProjection, uniformModel, uniformView;
+    mainLight = Light();
+
+    GLuint uniformProjection, uniformModel, uniformView, uniformAmbientIntensity, uniformAmbientColour;
 
     glm::mat4 projection = glm::perspective(45.0f, (GLfloat) mainWindow.getBufferWidth() /
                                                    (GLfloat) mainWindow.getBufferHeight(), 0.1f, 100.0f);
@@ -107,6 +112,10 @@ int main() {
         uniformModel = shaderList[0].getModelLocation();
         uniformProjection = shaderList[0].getProjectionLocation();
         uniformView = shaderList[0].getViewLocation();
+        uniformAmbientColour = shaderList[0].getAmbientColourLocation();
+        uniformAmbientIntensity = shaderList[0].getAmbientIntensityLocation();
+
+        mainLight.useLight(uniformAmbientIntensity, uniformAmbientColour);
 
         glm::mat4 model(1.0f);
 

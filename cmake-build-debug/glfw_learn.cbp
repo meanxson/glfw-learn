@@ -601,6 +601,9 @@
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Camera/Camera.h">
 			<Option target="glfw_learn"/>
 		</Unit>
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Light/Light.h">
+			<Option target="glfw_learn"/>
+		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Mesh/Mesh.h">
 			<Option target="glfw_learn"/>
 		</Unit>
@@ -620,6 +623,9 @@
 			<Option target="glfw_learn"/>
 		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Camera/Camera.cpp">
+			<Option target="glfw_learn"/>
+		</Unit>
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Light/Light.cpp">
 			<Option target="glfw_learn"/>
 		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Mesh/Mesh.cpp">

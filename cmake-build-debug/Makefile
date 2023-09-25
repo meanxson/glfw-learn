@@ -325,6 +325,30 @@ src/Camera/Camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.s
 .PHONY : src/Camera/Camera.cpp.s
 
+src/Light/Light.obj: src/Light/Light.cpp.obj
+.PHONY : src/Light/Light.obj
+
+# target to build an object file
+src/Light/Light.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.obj
+.PHONY : src/Light/Light.cpp.obj
+
+src/Light/Light.i: src/Light/Light.cpp.i
+.PHONY : src/Light/Light.i
+
+# target to preprocess a source file
+src/Light/Light.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.i
+.PHONY : src/Light/Light.cpp.i
+
+src/Light/Light.s: src/Light/Light.cpp.s
+.PHONY : src/Light/Light.s
+
+# target to generate assembly for a file
+src/Light/Light.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.s
+.PHONY : src/Light/Light.cpp.s
+
 src/Mesh/Mesh.obj: src/Mesh/Mesh.cpp.obj
 .PHONY : src/Mesh/Mesh.obj
 
@@ -448,6 +472,9 @@ help:
 	@echo ... src/Camera/Camera.obj
 	@echo ... src/Camera/Camera.i
 	@echo ... src/Camera/Camera.s
+	@echo ... src/Light/Light.obj
+	@echo ... src/Light/Light.i
+	@echo ... src/Light/Light.s
 	@echo ... src/Mesh/Mesh.obj
 	@echo ... src/Mesh/Mesh.i
 	@echo ... src/Mesh/Mesh.s

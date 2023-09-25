@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/glfw_learn.dir/main.cpp.obj.d"
   "CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.obj"
   "CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.obj.d"
+  "CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.obj"
+  "CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.obj.d"
   "CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj"
   "CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj.d"
   "CMakeFiles/glfw_learn.dir/src/Shader/Shader.cpp.obj"
