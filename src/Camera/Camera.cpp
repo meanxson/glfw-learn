@@ -6,7 +6,8 @@
 
 Camera::Camera(glm::vec3 startPosition, glm::vec3 startUp, GLfloat startYaw, GLfloat startPitch,
                GLfloat startMoveSpeed, GLfloat mouseSensitivity) : m_position(startPosition),
-                                                                   m_worldUp(startUp), m_yaw(startYaw), m_pitch(startPitch),
+                                                                   m_worldUp(startUp), m_yaw(startYaw),
+                                                                   m_pitch(startPitch),
                                                                    m_front(glm::vec3(0.0f, 0.0f, -1.0f)),
                                                                    m_movementSpeed(startMoveSpeed),
                                                                    m_mouseSensitivity(mouseSensitivity) {
@@ -39,6 +40,7 @@ void Camera::mouseControl(GLfloat xChange, GLfloat yChange) {
 
     m_yaw += xChange;
     m_pitch += yChange;
+
 
     if (m_pitch > 89.0f) {
         m_pitch = 89.0f;

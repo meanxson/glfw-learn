@@ -30,13 +30,18 @@ public:
 
     [[nodiscard]] GLuint getAmbientColourLocation() const;
 
+    [[nodiscard]] GLuint getDiffuseIntensityLocation() const;
+
+    [[nodiscard]] GLuint getDirectionLocation() const;
+
 
     void useShader() const;
 
     void clearShader();
 
 private:
-    GLuint m_shaderId, m_uniformProjection, m_uniformModel, m_uniformView, m_uniformAmbientIntensity, m_uniformAmbientColour;
+    GLuint m_shaderId, m_uniformProjection, m_uniformModel, m_uniformView, m_uniformAmbientIntensity,
+            m_uniformAmbientColour, m_uniformDiffuseIntensity, m_uniformDirection;
 
     void compileShader(const char *vertexCode, const char *fragmentCode);
 
