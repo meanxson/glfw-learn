@@ -349,6 +349,30 @@ src/Light/Light.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.s
 .PHONY : src/Light/Light.cpp.s
 
+src/Material/Material.obj: src/Material/Material.cpp.obj
+.PHONY : src/Material/Material.obj
+
+# target to build an object file
+src/Material/Material.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Material/Material.cpp.obj
+.PHONY : src/Material/Material.cpp.obj
+
+src/Material/Material.i: src/Material/Material.cpp.i
+.PHONY : src/Material/Material.i
+
+# target to preprocess a source file
+src/Material/Material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Material/Material.cpp.i
+.PHONY : src/Material/Material.cpp.i
+
+src/Material/Material.s: src/Material/Material.cpp.s
+.PHONY : src/Material/Material.s
+
+# target to generate assembly for a file
+src/Material/Material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Material/Material.cpp.s
+.PHONY : src/Material/Material.cpp.s
+
 src/Mesh/Mesh.obj: src/Mesh/Mesh.cpp.obj
 .PHONY : src/Mesh/Mesh.obj
 
@@ -475,6 +499,9 @@ help:
 	@echo ... src/Light/Light.obj
 	@echo ... src/Light/Light.i
 	@echo ... src/Light/Light.s
+	@echo ... src/Material/Material.obj
+	@echo ... src/Material/Material.i
+	@echo ... src/Material/Material.s
 	@echo ... src/Mesh/Mesh.obj
 	@echo ... src/Mesh/Mesh.i
 	@echo ... src/Mesh/Mesh.s

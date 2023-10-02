@@ -376,7 +376,8 @@ CMakeFiles/glfw_learn.dir/main.cpp.obj: C:/Users/Khakim/Desktop/HobbyCode/glfw-l
   C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
-  C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Light/Light.h
+  C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Light/Light.h \
+  C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Material/Material.h
 
 CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.obj: C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Camera/Camera.cpp \
   C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Camera/Camera.h \
@@ -810,6 +811,24 @@ CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.obj: C:/Users/Khakim/Desktop/Hobby
   C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/detail/type_half.inl \
   C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/integer.hpp \
   C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/detail/func_integer.inl
+
+CMakeFiles/glfw_learn.dir/src/Material/Material.cpp.obj: C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Material/Material.cpp \
+  C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Material/Material.h \
+  C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/include/GL/glew.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/inttypes.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/GL/glu.h \
+  C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/GL/gl.h
 
 CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj: C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Mesh/Mesh.cpp \
   C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Mesh/Mesh.h \
@@ -1363,6 +1382,8 @@ C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstddef:
 
+C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Material/Material.cpp:
+
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/simd/platform.h:
@@ -1798,6 +1819,8 @@ C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h:
 
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Light/Light.h:
+
+C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Material/Material.h:
 
 C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Camera/Camera.cpp:
 

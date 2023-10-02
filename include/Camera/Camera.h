@@ -13,13 +13,17 @@
 class Camera {
 public:
     Camera() = default;
+
     Camera(glm::vec3 startPosition, glm::vec3 startUp, GLfloat startYaw, GLfloat startPitch,
            GLfloat startMoveSpeed, GLfloat mouseSensitivity);
+
     ~Camera() = default;
 
     void keyControl(const bool *keys, GLfloat deltaTime);
 
     void mouseControl(GLfloat xChange, GLfloat yChange);
+
+    glm::vec3 getCameraPosition();
 
     glm::mat4 calculateViewMatrix();
 
