@@ -24,8 +24,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DSHADER_PATH=&quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/graphics/shaders/&quot;"/>
-					<Add option="-DTEXTURE_PATH=&quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/graphics/textures/&quot;"/>
+					<Add option="-DSHADER_PATH="/>
+					<Add option="-DC:/Users/Khakim/Desktop/HobbyCode/glfw-learn/graphics/shaders/"/>
+					<Add option="-DTEXTURE_PATH="/>
+					<Add option="-DC:/Users/Khakim/Desktop/HobbyCode/glfw-learn/graphics/textures/"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/include"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glfw/include"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glad/include"/>
@@ -37,6 +39,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 glfw_learn"/>
@@ -52,8 +55,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DSHADER_PATH=&quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/graphics/shaders/&quot;"/>
-					<Add option="-DTEXTURE_PATH=&quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/graphics/textures/&quot;"/>
+					<Add option="-DSHADER_PATH="/>
+					<Add option="-DC:/Users/Khakim/Desktop/HobbyCode/glfw-learn/graphics/shaders/"/>
+					<Add option="-DTEXTURE_PATH="/>
+					<Add option="-DC:/Users/Khakim/Desktop/HobbyCode/glfw-learn/graphics/textures/"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/include"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glfw/include"/>
 					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glad/include"/>
@@ -65,6 +70,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 glfw_learn/fast"/>
@@ -164,6 +170,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
@@ -193,6 +200,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
@@ -226,6 +234,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 glad"/>
@@ -249,6 +258,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
@@ -274,6 +284,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glew/Makefile&quot;  VERBOSE=1 glew"/>
@@ -299,6 +310,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glew/Makefile&quot;  VERBOSE=1 glew/fast"/>
@@ -324,6 +336,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glew/Makefile&quot;  VERBOSE=1 glew_s"/>
@@ -349,6 +362,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glew/Makefile&quot;  VERBOSE=1 glew_s/fast"/>
@@ -374,6 +388,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glew/Makefile&quot;  VERBOSE=1 glewinfo"/>
@@ -399,6 +414,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glew/Makefile&quot;  VERBOSE=1 glewinfo/fast"/>
@@ -424,6 +440,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glew/Makefile&quot;  VERBOSE=1 visualinfo"/>
@@ -449,6 +466,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glew/Makefile&quot;  VERBOSE=1 visualinfo/fast"/>
@@ -601,6 +619,9 @@
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Camera/Camera.h">
 			<Option target="glfw_learn"/>
 		</Unit>
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Light/DirectionalLight.h">
+			<Option target="glfw_learn"/>
+		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/include/Light/Light.h">
 			<Option target="glfw_learn"/>
 		</Unit>
@@ -626,6 +647,9 @@
 			<Option target="glfw_learn"/>
 		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Camera/Camera.cpp">
+			<Option target="glfw_learn"/>
+		</Unit>
+		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Light/DirectionalLight.cpp">
 			<Option target="glfw_learn"/>
 		</Unit>
 		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Light/Light.cpp">

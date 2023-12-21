@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/main.cpp" "CMakeFiles/glfw_learn.dir/main.cpp.obj" "gcc" "CMakeFiles/glfw_learn.dir/main.cpp.obj.d"
   "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Camera/Camera.cpp" "CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.obj" "gcc" "CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.obj.d"
+  "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Light/DirectionalLight.cpp" "CMakeFiles/glfw_learn.dir/src/Light/DirectionalLight.cpp.obj" "gcc" "CMakeFiles/glfw_learn.dir/src/Light/DirectionalLight.cpp.obj.d"
   "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Light/Light.cpp" "CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.obj" "gcc" "CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.obj.d"
   "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Material/Material.cpp" "CMakeFiles/glfw_learn.dir/src/Material/Material.cpp.obj" "gcc" "CMakeFiles/glfw_learn.dir/src/Material/Material.cpp.obj.d"
   "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/src/Mesh/Mesh.cpp" "CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj" "gcc" "CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj.d"

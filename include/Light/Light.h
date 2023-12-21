@@ -16,13 +16,12 @@ public:
 
     ~Light();
 
-    void useLight(GLfloat ambientIntensityLocation, GLfloat ambientColourLocation, GLfloat diffuseIntensity,
+    virtual void useLight(GLfloat ambientIntensityLocation, GLfloat ambientColourLocation, GLfloat diffuseIntensity,
                   GLfloat directionLocation);
 
-private:
+protected:
     glm::vec3 m_colour;
     GLfloat m_ambientIntensity;
-
     glm::vec3 m_direction;
     GLfloat m_diffuseIntensity;
 };

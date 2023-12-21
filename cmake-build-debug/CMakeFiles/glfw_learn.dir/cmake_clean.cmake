@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/glfw_learn.dir/main.cpp.obj.d"
   "CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.obj"
   "CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.obj.d"
+  "CMakeFiles/glfw_learn.dir/src/Light/DirectionalLight.cpp.obj"
+  "CMakeFiles/glfw_learn.dir/src/Light/DirectionalLight.cpp.obj.d"
   "CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.obj"
   "CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.obj.d"
   "CMakeFiles/glfw_learn.dir/src/Material/Material.cpp.obj"
