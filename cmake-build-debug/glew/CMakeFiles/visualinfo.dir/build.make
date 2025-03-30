@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Khakim\Desktop\HobbyCode\glfw-learn
+CMAKE_SOURCE_DIR = F:\Projects\C++\glfw-learn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug
+CMAKE_BINARY_DIR = F:\Projects\C++\glfw-learn\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include glew/CMakeFiles/visualinfo.dir/depend.make
@@ -70,23 +70,23 @@ include glew/CMakeFiles/visualinfo.dir/flags.make
 
 glew/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj: glew/CMakeFiles/visualinfo.dir/flags.make
 glew/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj: glew/CMakeFiles/visualinfo.dir/includes_C.rsp
-glew/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj: C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/src/visualinfo.c
+glew/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj: F:/Projects/C++/glfw-learn/external/glew/src/visualinfo.c
 glew/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj: glew/CMakeFiles/visualinfo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glew/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj"
-	cd /d C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\glew && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glew/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj -MF CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.obj.d -o CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.obj -c C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\external\glew\src\visualinfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glew/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj"
+	cd /d F:\Projects\C++\glfw-learn\cmake-build-debug\glew && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glew/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj -MF CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.obj.d -o CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.obj -c F:\Projects\C++\glfw-learn\external\glew\src\visualinfo.c
 
 glew/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.i"
-	cd /d C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\glew && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\external\glew\src\visualinfo.c > CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.i
+	cd /d F:\Projects\C++\glfw-learn\cmake-build-debug\glew && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Projects\C++\glfw-learn\external\glew\src\visualinfo.c > CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.i
 
 glew/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.s"
-	cd /d C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\glew && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\external\glew\src\visualinfo.c -o CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.s
+	cd /d F:\Projects\C++\glfw-learn\cmake-build-debug\glew && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Projects\C++\glfw-learn\external\glew\src\visualinfo.c -o CMakeFiles\visualinfo.dir\__\__\src\visualinfo.c.s
 
 glew/CMakeFiles/visualinfo.dir/__/visualinfo.rc.obj: glew/CMakeFiles/visualinfo.dir/flags.make
-glew/CMakeFiles/visualinfo.dir/__/visualinfo.rc.obj: C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/build/visualinfo.rc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object glew/CMakeFiles/visualinfo.dir/__/visualinfo.rc.obj"
-	cd /d C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\glew && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\external\glew\build\visualinfo.rc CMakeFiles\visualinfo.dir\__\visualinfo.rc.obj
+glew/CMakeFiles/visualinfo.dir/__/visualinfo.rc.obj: F:/Projects/C++/glfw-learn/external/glew/build/visualinfo.rc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object glew/CMakeFiles/visualinfo.dir/__/visualinfo.rc.obj"
+	cd /d F:\Projects\C++\glfw-learn\cmake-build-debug\glew && C:\mingw64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) F:\Projects\C++\glfw-learn\external\glew\build\visualinfo.rc CMakeFiles\visualinfo.dir\__\visualinfo.rc.obj
 
 # Object files for target visualinfo
 visualinfo_OBJECTS = \
@@ -103,18 +103,18 @@ bin/visualinfo.exe: lib/libglew32d.a
 bin/visualinfo.exe: glew/CMakeFiles/visualinfo.dir/linkLibs.rsp
 bin/visualinfo.exe: glew/CMakeFiles/visualinfo.dir/objects1
 bin/visualinfo.exe: glew/CMakeFiles/visualinfo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ..\bin\visualinfo.exe"
-	cd /d C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\glew && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\visualinfo.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ..\bin\visualinfo.exe"
+	cd /d F:\Projects\C++\glfw-learn\cmake-build-debug\glew && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\visualinfo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glew/CMakeFiles/visualinfo.dir/build: bin/visualinfo.exe
 .PHONY : glew/CMakeFiles/visualinfo.dir/build
 
 glew/CMakeFiles/visualinfo.dir/clean:
-	cd /d C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\glew && $(CMAKE_COMMAND) -P CMakeFiles\visualinfo.dir\cmake_clean.cmake
+	cd /d F:\Projects\C++\glfw-learn\cmake-build-debug\glew && $(CMAKE_COMMAND) -P CMakeFiles\visualinfo.dir\cmake_clean.cmake
 .PHONY : glew/CMakeFiles/visualinfo.dir/clean
 
 glew/CMakeFiles/visualinfo.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Khakim\Desktop\HobbyCode\glfw-learn C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\external\glew\build\cmake C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\glew C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\glew\CMakeFiles\visualinfo.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\Projects\C++\glfw-learn F:\Projects\C++\glfw-learn\external\glew\build\cmake F:\Projects\C++\glfw-learn\cmake-build-debug F:\Projects\C++\glfw-learn\cmake-build-debug\glew F:\Projects\C++\glfw-learn\cmake-build-debug\glew\CMakeFiles\visualinfo.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : glew/CMakeFiles/visualinfo.dir/depend
 

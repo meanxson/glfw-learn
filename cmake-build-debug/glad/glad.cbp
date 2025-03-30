@@ -8,101 +8,97 @@
 		<Option virtualFolders="CMake Files\;CMake Files\external\;CMake Files\external\glfw\;CMake Files\external\glfw\CMake\;CMake Files\external\glfw\src\;CMake Files\external\glad\;CMake Files\external\glew\;CMake Files\external\glew\build\;CMake Files\external\glew\build\cmake\;CMake Files\external\glm\;CMake Files\external\glm\glm\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad"/>
+				<Option working_dir="F:/Projects/C++/glfw-learn/cmake-build-debug/glad"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glad">
-				<Option output="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad"/>
+				<Option output="F:/Projects/C++/glfw-learn/cmake-build-debug/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Projects/C++/glfw-learn/cmake-build-debug/glad"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glad/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
+					<Add directory="F:/Projects/C++/glfw-learn/external/glad/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 glad"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glad/fast">
-				<Option output="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad"/>
+				<Option output="F:/Projects/C++/glfw-learn/cmake-build-debug/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Projects/C++/glfw-learn/cmake-build-debug/glad"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glad/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
+					<Add directory="F:/Projects/C++/glfw-learn/external/glad/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;F:/Projects/C++/glfw-learn/cmake-build-debug/glad/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glad/include/glad/glad.h">
+		<Unit filename="F:/Projects/C++/glfw-learn/external/glad/include/glad/glad.h">
 			<Option target="glad"/>
 		</Unit>
-		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glad/src/glad.c">
+		<Unit filename="F:/Projects/C++/glfw-learn/external/glad/src/glad.c">
 			<Option target="glad"/>
 		</Unit>
-		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/CMakeLists.txt">
+		<Unit filename="F:/Projects/C++/glfw-learn/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glfw/CMakeLists.txt">
+		<Unit filename="F:/Projects/C++/glfw-learn/external/glfw/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\external\glfw\"/>
 		</Unit>
-		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glfw/CMake/cmake_uninstall.cmake.in">
+		<Unit filename="F:/Projects/C++/glfw-learn/external/glfw/CMake/cmake_uninstall.cmake.in">
 			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
 		</Unit>
-		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glfw/CMake/glfw3.pc.in">
+		<Unit filename="F:/Projects/C++/glfw-learn/external/glfw/CMake/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
 		</Unit>
-		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glfw/CMake/glfw3Config.cmake.in">
+		<Unit filename="F:/Projects/C++/glfw-learn/external/glfw/CMake/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\external\glfw\CMake\"/>
 		</Unit>
-		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glfw/src/CMakeLists.txt">
+		<Unit filename="F:/Projects/C++/glfw-learn/external/glfw/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\external\glfw\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glad/CMakeLists.txt">
+		<Unit filename="F:/Projects/C++/glfw-learn/external/glad/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\external\glad\"/>
 		</Unit>
-		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/glew.pc.in">
+		<Unit filename="F:/Projects/C++/glfw-learn/external/glew/glew.pc.in">
 			<Option virtualFolder="CMake Files\external\glew\"/>
 		</Unit>
-		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/build/cmake/CMakeLists.txt">
+		<Unit filename="F:/Projects/C++/glfw-learn/external/glew/build/cmake/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\external\glew\build\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/CMakeLists.txt">
+		<Unit filename="F:/Projects/C++/glfw-learn/external/glm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\external\glm\"/>
 		</Unit>
-		<Unit filename="C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glm/glm/CMakeLists.txt">
+		<Unit filename="F:/Projects/C++/glfw-learn/external/glm/glm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\external\glm\glm\"/>
 		</Unit>
 	</Project>

@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Khakim\Desktop\HobbyCode\glfw-learn
+CMAKE_SOURCE_DIR = F:\Projects\C++\glfw-learn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug
+CMAKE_BINARY_DIR = F:\Projects\C++\glfw-learn\cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -66,7 +66,7 @@ include glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include glfw/CMakeFiles/uninstall.dir/progress.make
 
 glfw/CMakeFiles/uninstall:
-	cd /d C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\glfw && "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glfw/cmake_uninstall.cmake
+	cd /d F:\Projects\C++\glfw-learn\cmake-build-debug\glfw && "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -P F:/Projects/C++/glfw-learn/cmake-build-debug/glfw/cmake_uninstall.cmake
 
 uninstall: glfw/CMakeFiles/uninstall
 uninstall: glfw/CMakeFiles/uninstall.dir/build.make
@@ -77,10 +77,10 @@ glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : glfw/CMakeFiles/uninstall.dir/build
 
 glfw/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\glfw && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d F:\Projects\C++\glfw-learn\cmake-build-debug\glfw && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : glfw/CMakeFiles/uninstall.dir/clean
 
 glfw/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Khakim\Desktop\HobbyCode\glfw-learn C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\external\glfw C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\glfw C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\Projects\C++\glfw-learn F:\Projects\C++\glfw-learn\external\glfw F:\Projects\C++\glfw-learn\cmake-build-debug F:\Projects\C++\glfw-learn\cmake-build-debug\glfw F:\Projects\C++\glfw-learn\cmake-build-debug\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : glfw/CMakeFiles/uninstall.dir/depend
 

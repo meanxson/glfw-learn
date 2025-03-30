@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glfw/install_manifest.txt\"")
+if (NOT EXISTS "F:/Projects/C++/glfw-learn/cmake-build-debug/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"F:/Projects/C++/glfw-learn/cmake-build-debug/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug/glfw/install_manifest.txt" files)
+file(READ "F:/Projects/C++/glfw-learn/cmake-build-debug/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

@@ -202,42 +202,42 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "glad::@74ca6b3581f0d7366b1f",
-					"jsonFile" : "target-glad-Debug-b788f69cc4cdc75a878d.json",
+					"jsonFile" : "target-glad-Debug-2a2aa348d93b77fd9b76.json",
 					"name" : "glad",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "glew::@53e89909b58b5208c234",
-					"jsonFile" : "target-glew-Debug-79e4a6a8289ef10c5b18.json",
+					"jsonFile" : "target-glew-Debug-f4c61e75cdcbc3ccdece.json",
 					"name" : "glew",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "glew_s::@53e89909b58b5208c234",
-					"jsonFile" : "target-glew_s-Debug-c2ec3f6bcb038a19f72c.json",
+					"jsonFile" : "target-glew_s-Debug-5a9ce57f73bffe9305e0.json",
 					"name" : "glew_s",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "glewinfo::@53e89909b58b5208c234",
-					"jsonFile" : "target-glewinfo-Debug-2b66b553cefc5de9d9b7.json",
+					"jsonFile" : "target-glewinfo-Debug-2c8f01056853718c201d.json",
 					"name" : "glewinfo",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@12507ebf64a5258d241e",
-					"jsonFile" : "target-glfw-Debug-beb53d4beb315cb7e876.json",
+					"jsonFile" : "target-glfw-Debug-786e601561a411a5fcaa.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "glfw_learn::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-glfw_learn-Debug-878260df4fd8485ccc44.json",
+					"jsonFile" : "target-glfw_learn-Debug-65d3f204a1efdf46a72c.json",
 					"name" : "glfw_learn",
 					"projectIndex" : 0
 				},
@@ -258,7 +258,7 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "visualinfo::@53e89909b58b5208c234",
-					"jsonFile" : "target-visualinfo-Debug-8429b80e5351f36fb12e.json",
+					"jsonFile" : "target-visualinfo-Debug-4c82c056c7c7f6da2b8b.json",
 					"name" : "visualinfo",
 					"projectIndex" : 3
 				}
@@ -268,8 +268,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/cmake-build-debug",
-		"source" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn"
+		"build" : "F:/Projects/C++/glfw-learn/cmake-build-debug",
+		"source" : "F:/Projects/C++/glfw-learn"
 	},
 	"version" : 
 	{

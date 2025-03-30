@@ -5,13 +5,7 @@ enable_language(CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(${PROJECT_NAME} main.cpp
-        src/Window/Window.cpp include/Window/Window.h
-        src/Mesh/Mesh.cpp include/Mesh/Mesh.h
-        src/Shader/Shader.cpp include/Shader/Shader.h
-        src/Camera/Camera.cpp include/Camera/Camera.h include/Texture/stb_image.h src/Texture/Texture.cpp
-        include/Texture/Texture.h src/Light/Light.cpp include/Light/Light.h src/Material/Material.cpp
-        include/Material/Material.h include/Light/DirectionalLight.h src/Light/DirectionalLight.cpp)
+add_executable(${PROJECT_NAME} main.cpp)
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR}/external/glew/include)
 

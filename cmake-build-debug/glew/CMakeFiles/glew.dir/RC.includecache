@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/build/glew.rc
+F:/Projects/C++/glfw-learn/external/glew/build/glew.rc
 windows.h
 -
 

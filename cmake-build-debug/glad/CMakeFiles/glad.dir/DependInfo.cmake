@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glad/src/glad.c" "glad/CMakeFiles/glad.dir/src/glad.c.obj" "gcc" "glad/CMakeFiles/glad.dir/src/glad.c.obj.d"
+  "F:/Projects/C++/glfw-learn/external/glad/src/glad.c" "glad/CMakeFiles/glad.dir/src/glad.c.obj" "gcc" "glad/CMakeFiles/glad.dir/src/glad.c.obj.d"
   )
 
 # Targets to which this target links.

@@ -1,14 +1,9 @@
 {
+	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/glew32d.dll"
-		},
-		{
-			"path" : "lib/libglew32d.dll.a"
-		},
-		{
-			"path" : "bin/glew32d.pdb"
+			"path" : "lib/libglew32d.a"
 		}
 	],
 	"backtrace" : 1,
@@ -17,10 +12,10 @@
 		"commands" : 
 		[
 			"add_library",
-			"target_link_libraries",
+			"install",
 			"target_compile_options",
-			"set_target_properties",
 			"add_definitions",
+			"set_target_properties",
 			"include_directories"
 		],
 		"files" : 
@@ -35,37 +30,31 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 107,
+				"line" : 111,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 132,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 148,
+				"line" : 170,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 130,
+				"line" : 131,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 108,
+				"line" : 59,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 59,
+				"line" : 112,
 				"parent" : 0
 			},
 			{
@@ -85,33 +74,30 @@
 					"fragment" : "-g -fdiagnostics-color=always"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"fragment" : "-fno-builtin"
 				},
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"fragment" : "-fno-stack-protector"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 5,
-					"define" : "GLEW_BUILD"
-				},
-				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"define" : "GLEW_NO_GLU"
 				},
 				{
-					"define" : "glew_EXPORTS"
+					"backtrace" : 5,
+					"define" : "GLEW_STATIC"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 7,
-					"path" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/build/cmake/../../include"
+					"backtrace" : 6,
+					"path" : "F:/Projects/C++/glfw-learn/external/glew/build/cmake/../../include"
 				}
 			],
 			"language" : "C",
@@ -124,22 +110,19 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 5,
-					"define" : "GLEW_BUILD"
-				},
-				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"define" : "GLEW_NO_GLU"
 				},
 				{
-					"define" : "glew_EXPORTS"
+					"backtrace" : 5,
+					"define" : "GLEW_STATIC"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 7,
-					"path" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/build/cmake/../../include"
+					"backtrace" : 6,
+					"path" : "F:/Projects/C++/glfw-learn/external/glew/build/cmake/../../include"
 				}
 			],
 			"language" : "RC",
@@ -149,39 +132,23 @@
 			]
 		}
 	],
-	"id" : "glew::@53e89909b58b5208c234",
-	"link" : 
+	"id" : "glew_s::@53e89909b58b5208c234",
+	"install" : 
 	{
-		"commandFragments" : 
+		"destinations" : 
 		[
 			{
-				"fragment" : "",
-				"role" : "flags"
-			},
-			{
 				"backtrace" : 2,
-				"fragment" : "-nostdlib",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lopengl32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lglu32",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
+				"path" : "lib"
 			}
 		],
-		"language" : "C"
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/glfw_learn"
+		}
 	},
-	"name" : "glew",
-	"nameOnDisk" : "glew32d.dll",
+	"name" : "glew_s",
+	"nameOnDisk" : "libglew32d.a",
 	"paths" : 
 	{
 		"build" : "glew",
@@ -237,5 +204,5 @@
 			"sourceGroupIndex" : 1
 		}
 	],
-	"type" : "SHARED_LIBRARY"
+	"type" : "STATIC_LIBRARY"
 }

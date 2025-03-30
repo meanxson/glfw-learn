@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/glewinfo.exe"
+			"path" : "bin/visualinfo.exe"
 		},
 		{
-			"path" : "bin/glewinfo.pdb"
+			"path" : "bin/visualinfo.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -31,7 +31,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 183,
+				"line" : 197,
 				"parent" : 0
 			},
 			{
@@ -43,7 +43,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 187,
+				"line" : 201,
 				"parent" : 0
 			},
 			{
@@ -90,7 +90,7 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/build/cmake/../../include"
+					"path" : "F:/Projects/C++/glfw-learn/external/glew/build/cmake/../../include"
 				}
 			],
 			"language" : "C",
@@ -115,7 +115,7 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/Khakim/Desktop/HobbyCode/glfw-learn/external/glew/build/cmake/../../include"
+					"path" : "F:/Projects/C++/glfw-learn/external/glew/build/cmake/../../include"
 				}
 			],
 			"language" : "RC",
@@ -132,7 +132,7 @@
 			"id" : "glew_s::@53e89909b58b5208c234"
 		}
 	],
-	"id" : "glewinfo::@53e89909b58b5208c234",
+	"id" : "visualinfo::@53e89909b58b5208c234",
 	"install" : 
 	{
 		"destinations" : 
@@ -181,8 +181,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "glewinfo",
-	"nameOnDisk" : "glewinfo.exe",
+	"name" : "visualinfo",
+	"nameOnDisk" : "visualinfo.exe",
 	"paths" : 
 	{
 		"build" : "glew",
@@ -204,13 +204,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "external/glew/src/glewinfo.c",
+			"path" : "external/glew/src/visualinfo.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "external/glew/build/glewinfo.rc",
+			"path" : "external/glew/build/visualinfo.rc",
 			"sourceGroupIndex" : 0
 		}
 	],

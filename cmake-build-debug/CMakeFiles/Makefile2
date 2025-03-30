@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Khakim\Desktop\HobbyCode\glfw-learn
+CMAKE_SOURCE_DIR = F:\Projects\C++\glfw-learn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug
+CMAKE_BINARY_DIR = F:\Projects\C++\glfw-learn\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -191,14 +191,14 @@ CMakeFiles/glfw_learn.dir/all: glad/CMakeFiles/glad.dir/all
 CMakeFiles/glfw_learn.dir/all: glew/CMakeFiles/glew.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43 "Built target glfw_learn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target glfw_learn"
 .PHONY : CMakeFiles/glfw_learn.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/glfw_learn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/glfw_learn.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/glfw_learn.dir/rule
 
 # Convenience name for target.
@@ -217,14 +217,14 @@ CMakeFiles/glfw_learn.dir/clean:
 glfw/CMakeFiles/uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f glfw\CMakeFiles\uninstall.dir\build.make glfw/CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\CMakeFiles\uninstall.dir\build.make glfw/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : glfw/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -243,14 +243,14 @@ glfw/CMakeFiles/uninstall.dir/clean:
 glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target glfw"
 .PHONY : glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -269,14 +269,14 @@ glfw/src/CMakeFiles/glfw.dir/clean:
 glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\update_mappings.dir\build.make glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\update_mappings.dir\build.make glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=44 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=36 "Built target update_mappings"
 .PHONY : glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/src/CMakeFiles/update_mappings.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/src/CMakeFiles/update_mappings.dir/rule
 
 # Convenience name for target.
@@ -295,14 +295,14 @@ glfw/src/CMakeFiles/update_mappings.dir/clean:
 glad/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f glad\CMakeFiles\glad.dir\build.make glad/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f glad\CMakeFiles\glad.dir\build.make glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target glad"
 .PHONY : glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
 glad/CMakeFiles/glad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glad/CMakeFiles/glad.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 0
 .PHONY : glad/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -321,14 +321,14 @@ glad/CMakeFiles/glad.dir/clean:
 glew/CMakeFiles/glew.dir/all:
 	$(MAKE) $(MAKESILENT) -f glew\CMakeFiles\glew.dir\build.make glew/CMakeFiles/glew.dir/depend
 	$(MAKE) $(MAKESILENT) -f glew\CMakeFiles\glew.dir\build.make glew/CMakeFiles/glew.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target glew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target glew"
 .PHONY : glew/CMakeFiles/glew.dir/all
 
 # Build rule for subdir invocation for target.
 glew/CMakeFiles/glew.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glew/CMakeFiles/glew.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 0
 .PHONY : glew/CMakeFiles/glew.dir/rule
 
 # Convenience name for target.
@@ -347,14 +347,14 @@ glew/CMakeFiles/glew.dir/clean:
 glew/CMakeFiles/glew_s.dir/all:
 	$(MAKE) $(MAKESILENT) -f glew\CMakeFiles\glew_s.dir\build.make glew/CMakeFiles/glew_s.dir/depend
 	$(MAKE) $(MAKESILENT) -f glew\CMakeFiles\glew_s.dir\build.make glew/CMakeFiles/glew_s.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=6,7,8 "Built target glew_s"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=6,7,8 "Built target glew_s"
 .PHONY : glew/CMakeFiles/glew_s.dir/all
 
 # Build rule for subdir invocation for target.
 glew/CMakeFiles/glew_s.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glew/CMakeFiles/glew_s.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 0
 .PHONY : glew/CMakeFiles/glew_s.dir/rule
 
 # Convenience name for target.
@@ -373,14 +373,14 @@ glew/CMakeFiles/glew_s.dir/clean:
 glew/CMakeFiles/glewinfo.dir/all: glew/CMakeFiles/glew_s.dir/all
 	$(MAKE) $(MAKESILENT) -f glew\CMakeFiles\glewinfo.dir\build.make glew/CMakeFiles/glewinfo.dir/depend
 	$(MAKE) $(MAKESILENT) -f glew\CMakeFiles\glewinfo.dir\build.make glew/CMakeFiles/glewinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=9,10,11 "Built target glewinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=9,10,11 "Built target glewinfo"
 .PHONY : glew/CMakeFiles/glewinfo.dir/all
 
 # Build rule for subdir invocation for target.
 glew/CMakeFiles/glewinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glew/CMakeFiles/glewinfo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 0
 .PHONY : glew/CMakeFiles/glewinfo.dir/rule
 
 # Convenience name for target.
@@ -399,14 +399,14 @@ glew/CMakeFiles/glewinfo.dir/clean:
 glew/CMakeFiles/visualinfo.dir/all: glew/CMakeFiles/glew_s.dir/all
 	$(MAKE) $(MAKESILENT) -f glew\CMakeFiles\visualinfo.dir\build.make glew/CMakeFiles/visualinfo.dir/depend
 	$(MAKE) $(MAKESILENT) -f glew\CMakeFiles\visualinfo.dir\build.make glew/CMakeFiles/visualinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=45,46,47 "Built target visualinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles --progress-num=37,38,39 "Built target visualinfo"
 .PHONY : glew/CMakeFiles/visualinfo.dir/all
 
 # Build rule for subdir invocation for target.
 glew/CMakeFiles/visualinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glew/CMakeFiles/visualinfo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 0
 .PHONY : glew/CMakeFiles/visualinfo.dir/rule
 
 # Convenience name for target.

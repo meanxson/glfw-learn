@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Khakim\Desktop\HobbyCode\glfw-learn
+CMAKE_SOURCE_DIR = F:\Projects\C++\glfw-learn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug
+CMAKE_BINARY_DIR = F:\Projects\C++\glfw-learn\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles F:\Projects\C++\glfw-learn\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Khakim\Desktop\HobbyCode\glfw-learn\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Projects\C++\glfw-learn\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -301,198 +301,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/Camera/Camera.obj: src/Camera/Camera.cpp.obj
-.PHONY : src/Camera/Camera.obj
-
-# target to build an object file
-src/Camera/Camera.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.obj
-.PHONY : src/Camera/Camera.cpp.obj
-
-src/Camera/Camera.i: src/Camera/Camera.cpp.i
-.PHONY : src/Camera/Camera.i
-
-# target to preprocess a source file
-src/Camera/Camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.i
-.PHONY : src/Camera/Camera.cpp.i
-
-src/Camera/Camera.s: src/Camera/Camera.cpp.s
-.PHONY : src/Camera/Camera.s
-
-# target to generate assembly for a file
-src/Camera/Camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Camera/Camera.cpp.s
-.PHONY : src/Camera/Camera.cpp.s
-
-src/Light/DirectionalLight.obj: src/Light/DirectionalLight.cpp.obj
-.PHONY : src/Light/DirectionalLight.obj
-
-# target to build an object file
-src/Light/DirectionalLight.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Light/DirectionalLight.cpp.obj
-.PHONY : src/Light/DirectionalLight.cpp.obj
-
-src/Light/DirectionalLight.i: src/Light/DirectionalLight.cpp.i
-.PHONY : src/Light/DirectionalLight.i
-
-# target to preprocess a source file
-src/Light/DirectionalLight.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Light/DirectionalLight.cpp.i
-.PHONY : src/Light/DirectionalLight.cpp.i
-
-src/Light/DirectionalLight.s: src/Light/DirectionalLight.cpp.s
-.PHONY : src/Light/DirectionalLight.s
-
-# target to generate assembly for a file
-src/Light/DirectionalLight.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Light/DirectionalLight.cpp.s
-.PHONY : src/Light/DirectionalLight.cpp.s
-
-src/Light/Light.obj: src/Light/Light.cpp.obj
-.PHONY : src/Light/Light.obj
-
-# target to build an object file
-src/Light/Light.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.obj
-.PHONY : src/Light/Light.cpp.obj
-
-src/Light/Light.i: src/Light/Light.cpp.i
-.PHONY : src/Light/Light.i
-
-# target to preprocess a source file
-src/Light/Light.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.i
-.PHONY : src/Light/Light.cpp.i
-
-src/Light/Light.s: src/Light/Light.cpp.s
-.PHONY : src/Light/Light.s
-
-# target to generate assembly for a file
-src/Light/Light.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Light/Light.cpp.s
-.PHONY : src/Light/Light.cpp.s
-
-src/Material/Material.obj: src/Material/Material.cpp.obj
-.PHONY : src/Material/Material.obj
-
-# target to build an object file
-src/Material/Material.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Material/Material.cpp.obj
-.PHONY : src/Material/Material.cpp.obj
-
-src/Material/Material.i: src/Material/Material.cpp.i
-.PHONY : src/Material/Material.i
-
-# target to preprocess a source file
-src/Material/Material.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Material/Material.cpp.i
-.PHONY : src/Material/Material.cpp.i
-
-src/Material/Material.s: src/Material/Material.cpp.s
-.PHONY : src/Material/Material.s
-
-# target to generate assembly for a file
-src/Material/Material.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Material/Material.cpp.s
-.PHONY : src/Material/Material.cpp.s
-
-src/Mesh/Mesh.obj: src/Mesh/Mesh.cpp.obj
-.PHONY : src/Mesh/Mesh.obj
-
-# target to build an object file
-src/Mesh/Mesh.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.obj
-.PHONY : src/Mesh/Mesh.cpp.obj
-
-src/Mesh/Mesh.i: src/Mesh/Mesh.cpp.i
-.PHONY : src/Mesh/Mesh.i
-
-# target to preprocess a source file
-src/Mesh/Mesh.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.i
-.PHONY : src/Mesh/Mesh.cpp.i
-
-src/Mesh/Mesh.s: src/Mesh/Mesh.cpp.s
-.PHONY : src/Mesh/Mesh.s
-
-# target to generate assembly for a file
-src/Mesh/Mesh.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Mesh/Mesh.cpp.s
-.PHONY : src/Mesh/Mesh.cpp.s
-
-src/Shader/Shader.obj: src/Shader/Shader.cpp.obj
-.PHONY : src/Shader/Shader.obj
-
-# target to build an object file
-src/Shader/Shader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Shader/Shader.cpp.obj
-.PHONY : src/Shader/Shader.cpp.obj
-
-src/Shader/Shader.i: src/Shader/Shader.cpp.i
-.PHONY : src/Shader/Shader.i
-
-# target to preprocess a source file
-src/Shader/Shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Shader/Shader.cpp.i
-.PHONY : src/Shader/Shader.cpp.i
-
-src/Shader/Shader.s: src/Shader/Shader.cpp.s
-.PHONY : src/Shader/Shader.s
-
-# target to generate assembly for a file
-src/Shader/Shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Shader/Shader.cpp.s
-.PHONY : src/Shader/Shader.cpp.s
-
-src/Texture/Texture.obj: src/Texture/Texture.cpp.obj
-.PHONY : src/Texture/Texture.obj
-
-# target to build an object file
-src/Texture/Texture.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Texture/Texture.cpp.obj
-.PHONY : src/Texture/Texture.cpp.obj
-
-src/Texture/Texture.i: src/Texture/Texture.cpp.i
-.PHONY : src/Texture/Texture.i
-
-# target to preprocess a source file
-src/Texture/Texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Texture/Texture.cpp.i
-.PHONY : src/Texture/Texture.cpp.i
-
-src/Texture/Texture.s: src/Texture/Texture.cpp.s
-.PHONY : src/Texture/Texture.s
-
-# target to generate assembly for a file
-src/Texture/Texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Texture/Texture.cpp.s
-.PHONY : src/Texture/Texture.cpp.s
-
-src/Window/Window.obj: src/Window/Window.cpp.obj
-.PHONY : src/Window/Window.obj
-
-# target to build an object file
-src/Window/Window.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.obj
-.PHONY : src/Window/Window.cpp.obj
-
-src/Window/Window.i: src/Window/Window.cpp.i
-.PHONY : src/Window/Window.i
-
-# target to preprocess a source file
-src/Window/Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.i
-.PHONY : src/Window/Window.cpp.i
-
-src/Window/Window.s: src/Window/Window.cpp.s
-.PHONY : src/Window/Window.s
-
-# target to generate assembly for a file
-src/Window/Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glfw_learn.dir\build.make CMakeFiles/glfw_learn.dir/src/Window/Window.cpp.s
-.PHONY : src/Window/Window.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -517,30 +325,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... src/Camera/Camera.obj
-	@echo ... src/Camera/Camera.i
-	@echo ... src/Camera/Camera.s
-	@echo ... src/Light/DirectionalLight.obj
-	@echo ... src/Light/DirectionalLight.i
-	@echo ... src/Light/DirectionalLight.s
-	@echo ... src/Light/Light.obj
-	@echo ... src/Light/Light.i
-	@echo ... src/Light/Light.s
-	@echo ... src/Material/Material.obj
-	@echo ... src/Material/Material.i
-	@echo ... src/Material/Material.s
-	@echo ... src/Mesh/Mesh.obj
-	@echo ... src/Mesh/Mesh.i
-	@echo ... src/Mesh/Mesh.s
-	@echo ... src/Shader/Shader.obj
-	@echo ... src/Shader/Shader.i
-	@echo ... src/Shader/Shader.s
-	@echo ... src/Texture/Texture.obj
-	@echo ... src/Texture/Texture.i
-	@echo ... src/Texture/Texture.s
-	@echo ... src/Window/Window.obj
-	@echo ... src/Window/Window.i
-	@echo ... src/Window/Window.s
 .PHONY : help
 
 
